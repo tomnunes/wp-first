@@ -1,0 +1,263 @@
+html {
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	background: #fff;
+	overflow: hidden;
+	height: 100%;
+	min-width: 960px;
+}
+
+#branding { display: none; }
+
+#lu-toolbar {
+	background: #fff;
+	height: 100%;
+	left: 0px;
+	position: fixed;
+	font-family: 'Open sans';
+	top: 0px;
+	width: 100%;
+	z-index: 999999;
+}
+
+#lu-toolbar #lu-toolbar-top {
+	background: #fff;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.35);
+	height: 65px;
+	position: absolute;
+	width: 100%;
+	z-index: 4;
+}
+
+#lu-toolbar #lu-toolbar-top-content {
+	position: relative;
+	padding: 14px 20px 0px;
+}
+
+#lu-toolbar #lu-toolbar-top h1#logo {
+	float: left;
+	margin: 1px 22px 0px 5px;
+}
+
+#lu-toolbar #lu-toolbar-top address {
+	float: left;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 13px;
+	margin-top: 7px;
+}
+
+#lu-toolbar #lu-toolbar-top address a { 
+	color: #29abe2;
+	text-decoration: none;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	-o-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+
+#lu-toolbar #lu-toolbar-top address a:hover { 
+	color: #c1272d;
+}
+
+#lu-toolbar #lu-toolbar-options {
+	float: right;
+	width: 428px;
+}
+
+#lu-toolbar div.combobox {
+	color: #555;
+	float: left;
+	cursor: pointer;
+	position: relative;
+	font-size: 14px;
+	font-weight: 600;
+	margin-right: 20px;
+	width: 200px;
+}
+
+#lu-toolbar div.combobox div.value {
+	border-radius: 4px;
+	background: #f1f1f1;
+	height: 36px;
+	box-shadow: inset 0 -2px rgba(0, 0, 0, 0.15);
+	padding: 0px 10px;
+	line-height: 36px;
+	position: relative;
+	z-index: 3;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	-o-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+
+#lu-toolbar div.combobox div.value:hover {
+	color: #29abe2;
+	background: #f5f5f5;
+	box-shadow: inset 0 2px rgba(0, 0, 0, 0.15);
+}
+
+#lu-toolbar span.arrows {
+	position: absolute;
+	right: 5px;
+	top: 14px;
+	height: 20px;
+	width: 20px;
+}
+
+#lu-toolbar span.arrows span.arrow {
+	position: absolute;
+	left: 0px;
+	color: #555;
+}
+
+#lu-toolbar span.arrows span.arrow.ss-directup {
+	bottom: 1px;
+	font-size: 10px;
+	}
+#lu-toolbar span.arrows span.arrow.ss-dropdown {
+	top: -10px;
+	font-size: 10px;
+}
+
+#lu-toolbar div.combobox ul.list {
+	display: none;
+	background: #f3f3f3;
+	position: absolute;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	left: 0px;
+	right: 0px;
+	padding: 4px 0px 2px;
+	box-shadow: 0 3px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	top: 32px;
+	z-index: 2;
+}
+
+#lu-toolbar div.combobox ul.list li {
+	border-top: 1px solid #dfdfdf;
+	line-height: 35px;
+	padding: 0px 10px;
+	margin-left: 1px;
+	font-weight: 500;
+}
+
+#lu-toolbar div.combobox ul.list li:last-child {
+	border-bottom-left-radius: 4px;  
+	border-bottom-right-radius: 4px;
+}
+
+#lu-toolbar div.combobox ul.list li:hover {
+	background: #fff;
+	color: #29abe2;
+	font-weight: 700;
+}
+
+#lu-toolbar div.combobox.active { z-index: 5; }
+#lu-toolbar div.combobox.active div.value { box-shadow: inset 0 2px rgba(0, 0, 0, 0.15); }
+
+#lu-toolbar a#lu-theme-buy {
+	background: #c1272d;
+	box-shadow: 0 2px 0px #931d22;
+	color: #fff;
+	border-radius: 5px;
+	font-weight: 600;
+	float: left;
+	padding: 4px 12px 2px 12px;
+	text-decoration: none;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	-o-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+
+#lu-toolbar a#lu-theme-buy:hover {
+	background: #29abe2;
+	box-shadow: 0 2px 0px #057bc6;
+}
+
+#lu-toolbar a#lu-theme-buy span {
+	display: inline-block;
+}
+
+#lu-toolbar a#lu-theme-buy span.icon {
+	vertical-align: -3px;
+	font-size: 15px;
+	margin-left: 5px;
+}
+
+#lu-toolbar .ss-delete {
+	color: #CCC;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	-o-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+
+
+#lu-toolbar a:hover .ss-delete {
+	color: #333;
+}
+
+#lu-toolbar div.close-holder {
+	cursor: pointer;
+	float: right;
+	margin-top: 8px;
+}
+
+#lu-toolbar div.close-holder span { cursor: pointer; }
+
+#lu-toolbar a#lu-theme-demo,
+#lu-toolbar a#lu-theme-demo:hover { 
+	text-decoration: none;
+	display: block; 
+}
+
+#lu-toolbar #lu-toolbar-content {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	top: 65px;
+	z-index: 2;
+}
+
+#lu-toolbar #lu-toolbar-overlay {
+	position: absolute;
+	display: none;
+	opacity: 0.2;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 3;
+}
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+
+/*-------------------------------------
+   MEDIA QUERIES
+-------------------------------------*/	
+
+@media only screen and (max-width: 992px) {
+	
+	#lu-toolbar-top {
+		display: none;
+	}
+	
+	#lu-toolbar #lu-toolbar-content {
+		top: 0;
+	}
+
+}
