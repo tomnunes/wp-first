@@ -1,4 +1,4 @@
 wp-first
 ========
 
-My first WordPress theme
+My WordPress theme
