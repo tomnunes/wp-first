@@ -10,30 +10,26 @@ get_header(); ?>
 	<section>
 		<div class="row">
 			<div class="twelve columns">
-				<h1>Babica Bootstrap (v1.1)</h1>
-				<p>A front-end toolkit with Html, CSS, and JS from <a href="http://babica.com.br">Babica</a>.</p>
-				<p>
-					<a href="https://github.com/tomnunes/babica-bootstrap/zipball/master" class="btn btn-primary">Download .zip</a>
-					<a href="https://github.com/tomnunes/babica-bootstrap/" class="btn btn-info">View on GitHub</a> 
-				</p>
+				<h1>My Bootstrap (v1.1)</h1>
+				<p>A front-end toolkit with Html, CSS.</p>
 			</div>
 			<div class="twelve columns">
 				<div class="page-header">
 					<h2 class="red">Grid</h2>
 				</div>
 				<div class="row show-span">
-					<div class="one columns">grid1</div>
-					<div class="one columns">grid1</div>
-					<div class="one columns">grid1</div>
-					<div class="one columns">grid1</div>
-					<div class="one columns">grid1</div>
-					<div class="one columns">grid1</div>
-					<div class="one columns">grid1</div>
-					<div class="one columns">grid1</div>
-					<div class="one columns">grid1</div>
-					<div class="one columns">grid1</div>
-					<div class="one columns">grid1</div>
-					<div class="one columns">grid1</div>
+					<div class="one columns red">grid1</div>
+					<div class="one columns blue">grid1</div>
+					<div class="one columns red">grid1</div>
+					<div class="one columns blue">grid1</div>
+					<div class="one columns red">grid1</div>
+					<div class="one columns blue">grid1</div>
+					<div class="one columns red">grid1</div>
+					<div class="one columns blue">grid1</div>
+					<div class="one columns red">grid1</div>
+					<div class="one columns blue">grid1</div>
+					<div class="one columns red">grid1</div>
+					<div class="one columns blue">grid1</div>
 				</div>
 				<div class="row show-span">
 					<div class="two columns">grid2</div>

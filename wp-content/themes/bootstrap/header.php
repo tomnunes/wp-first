@@ -19,8 +19,8 @@
 <meta name="viewport" content="width=device-width" />
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 
-<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/forms.css" />
-<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/responsive.css" />
+<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/forms.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_directory' ); ?>/responsive.css" media="screen"/>
 
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -57,5 +57,3 @@
   			</div>
   		</nav>
 	</header>
-
-	<div id="main" class="wrapper">
